@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		298831AA1F18D4E800F6FFF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298831A91F18D4E800F6FFF4 /* AppDelegate.swift */; };
+		298831AC1F18D4E800F6FFF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298831AB1F18D4E800F6FFF4 /* ViewController.swift */; };
+		298831AF1F18D4E800F6FFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298831AD1F18D4E800F6FFF4 /* Main.storyboard */; };
+		298831B21F18D4E800F6FFF4 /* platypusMarkUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 298831B01F18D4E800F6FFF4 /* platypusMarkUp.xcdatamodeld */; };
+		298831B41F18D4E800F6FFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 298831B31F18D4E800F6FFF4 /* Assets.xcassets */; };
+		298831B71F18D4E800F6FFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298831B51F18D4E800F6FFF4 /* LaunchScreen.storyboard */; };
+		298831C21F18D4E800F6FFF4 /* platypusMarkUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298831C11F18D4E800F6FFF4 /* platypusMarkUpTests.swift */; };
+		298831CD1F18D4E800F6FFF4 /* platypusMarkUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298831CC1F18D4E800F6FFF4 /* platypusMarkUpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		298831BE1F18D4E800F6FFF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2988319E1F18D4E800F6FFF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 298831A51F18D4E800F6FFF4;
+			remoteInfo = platypusMarkUp;
+		};
+		298831C91F18D4E800F6FFF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2988319E1F18D4E800F6FFF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 298831A51F18D4E800F6FFF4;
+			remoteInfo = platypusMarkUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		298831A61F18D4E800F6FFF4 /* platypusMarkUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = platypusMarkUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		298831A91F18D4E800F6FFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		298831AB1F18D4E800F6FFF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		298831AE1F18D4E800F6FFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		298831B11F18D4E800F6FFF4 /* platypusMarkUp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = platypusMarkUp.xcdatamodel; sourceTree = "<group>"; };
+		298831B31F18D4E800F6FFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		298831B61F18D4E800F6FFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		298831B81F18D4E800F6FFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298831BD1F18D4E800F6FFF4 /* platypusMarkUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = platypusMarkUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		298831C11F18D4E800F6FFF4 /* platypusMarkUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = platypusMarkUpTests.swift; sourceTree = "<group>"; };
+		298831C31F18D4E800F6FFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298831C81F18D4E800F6FFF4 /* platypusMarkUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = platypusMarkUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		298831CC1F18D4E800F6FFF4 /* platypusMarkUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = platypusMarkUpUITests.swift; sourceTree = "<group>"; };
+		298831CE1F18D4E800F6FFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		298831A31F18D4E800F6FFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298831BA1F18D4E800F6FFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298831C51F18D4E800F6FFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2988319D1F18D4E800F6FFF4 = {
+			isa = PBXGroup;
+			children = (
+				298831A81F18D4E800F6FFF4 /* platypusMarkUp */,
+				298831C01F18D4E800F6FFF4 /* platypusMarkUpTests */,
+				298831CB1F18D4E800F6FFF4 /* platypusMarkUpUITests */,
+				298831A71F18D4E800F6FFF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		298831A71F18D4E800F6FFF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				298831A61F18D4E800F6FFF4 /* platypusMarkUp.app */,
+				298831BD1F18D4E800F6FFF4 /* platypusMarkUpTests.xctest */,
+				298831C81F18D4E800F6FFF4 /* platypusMarkUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		298831A81F18D4E800F6FFF4 /* platypusMarkUp */ = {
+			isa = PBXGroup;
+			children = (
+				298831A91F18D4E800F6FFF4 /* AppDelegate.swift */,
+				298831AB1F18D4E800F6FFF4 /* ViewController.swift */,
+				298831AD1F18D4E800F6FFF4 /* Main.storyboard */,
+				298831B31F18D4E800F6FFF4 /* Assets.xcassets */,
+				298831B51F18D4E800F6FFF4 /* LaunchScreen.storyboard */,
+				298831B81F18D4E800F6FFF4 /* Info.plist */,
+				298831B01F18D4E800F6FFF4 /* platypusMarkUp.xcdatamodeld */,
+			);
+			path = platypusMarkUp;
+			sourceTree = "<group>";
+		};
+		298831C01F18D4E800F6FFF4 /* platypusMarkUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				298831C11F18D4E800F6FFF4 /* platypusMarkUpTests.swift */,
+				298831C31F18D4E800F6FFF4 /* Info.plist */,
+			);
+			path = platypusMarkUpTests;
+			sourceTree = "<group>";
+		};
+		298831CB1F18D4E800F6FFF4 /* platypusMarkUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				298831CC1F18D4E800F6FFF4 /* platypusMarkUpUITests.swift */,
+				298831CE1F18D4E800F6FFF4 /* Info.plist */,
+			);
+			path = platypusMarkUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		298831A51F18D4E800F6FFF4 /* platypusMarkUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298831D11F18D4E800F6FFF4 /* Build configuration list for PBXNativeTarget "platypusMarkUp" */;
+			buildPhases = (
+				298831A21F18D4E800F6FFF4 /* Sources */,
+				298831A31F18D4E800F6FFF4 /* Frameworks */,
+				298831A41F18D4E800F6FFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = platypusMarkUp;
+			productName = platypusMarkUp;
+			productReference = 298831A61F18D4E800F6FFF4 /* platypusMarkUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		298831BC1F18D4E800F6FFF4 /* platypusMarkUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298831D41F18D4E800F6FFF4 /* Build configuration list for PBXNativeTarget "platypusMarkUpTests" */;
+			buildPhases = (
+				298831B91F18D4E800F6FFF4 /* Sources */,
+				298831BA1F18D4E800F6FFF4 /* Frameworks */,
+				298831BB1F18D4E800F6FFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298831BF1F18D4E800F6FFF4 /* PBXTargetDependency */,
+			);
+			name = platypusMarkUpTests;
+			productName = platypusMarkUpTests;
+			productReference = 298831BD1F18D4E800F6FFF4 /* platypusMarkUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		298831C71F18D4E800F6FFF4 /* platypusMarkUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 298831D71F18D4E800F6FFF4 /* Build configuration list for PBXNativeTarget "platypusMarkUpUITests" */;
+			buildPhases = (
+				298831C41F18D4E800F6FFF4 /* Sources */,
+				298831C51F18D4E800F6FFF4 /* Frameworks */,
+				298831C61F18D4E800F6FFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				298831CA1F18D4E800F6FFF4 /* PBXTargetDependency */,
+			);
+			name = platypusMarkUpUITests;
+			productName = platypusMarkUpUITests;
+			productReference = 298831C81F18D4E800F6FFF4 /* platypusMarkUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2988319E1F18D4E800F6FFF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Divjyot Singh";
+				TargetAttributes = {
+					298831A51F18D4E800F6FFF4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4F98H3FLC5;
+						ProvisioningStyle = Automatic;
+					};
+					298831BC1F18D4E800F6FFF4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4F98H3FLC5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 298831A51F18D4E800F6FFF4;
+					};
+					298831C71F18D4E800F6FFF4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4F98H3FLC5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 298831A51F18D4E800F6FFF4;
+					};
+				};
+			};
+			buildConfigurationList = 298831A11F18D4E800F6FFF4 /* Build configuration list for PBXProject "platypusMarkUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2988319D1F18D4E800F6FFF4;
+			productRefGroup = 298831A71F18D4E800F6FFF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				298831A51F18D4E800F6FFF4 /* platypusMarkUp */,
+				298831BC1F18D4E800F6FFF4 /* platypusMarkUpTests */,
+				298831C71F18D4E800F6FFF4 /* platypusMarkUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		298831A41F18D4E800F6FFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298831B71F18D4E800F6FFF4 /* LaunchScreen.storyboard in Resources */,
+				298831B41F18D4E800F6FFF4 /* Assets.xcassets in Resources */,
+				298831AF1F18D4E800F6FFF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298831BB1F18D4E800F6FFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298831C61F18D4E800F6FFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		298831A21F18D4E800F6FFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298831AC1F18D4E800F6FFF4 /* ViewController.swift in Sources */,
+				298831AA1F18D4E800F6FFF4 /* AppDelegate.swift in Sources */,
+				298831B21F18D4E800F6FFF4 /* platypusMarkUp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298831B91F18D4E800F6FFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298831C21F18D4E800F6FFF4 /* platypusMarkUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		298831C41F18D4E800F6FFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298831CD1F18D4E800F6FFF4 /* platypusMarkUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		298831BF1F18D4E800F6FFF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 298831A51F18D4E800F6FFF4 /* platypusMarkUp */;
+			targetProxy = 298831BE1F18D4E800F6FFF4 /* PBXContainerItemProxy */;
+		};
+		298831CA1F18D4E800F6FFF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 298831A51F18D4E800F6FFF4 /* platypusMarkUp */;
+			targetProxy = 298831C91F18D4E800F6FFF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		298831AD1F18D4E800F6FFF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				298831AE1F18D4E800F6FFF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		298831B51F18D4E800F6FFF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				298831B61F18D4E800F6FFF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		298831CF1F18D4E800F6FFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		298831D01F18D4E800F6FFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		298831D21F18D4E800F6FFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4F98H3FLC5;
+				INFOPLIST_FILE = platypusMarkUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divjyotsingh.platypusMarkUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		298831D31F18D4E800F6FFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4F98H3FLC5;
+				INFOPLIST_FILE = platypusMarkUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divjyotsingh.platypusMarkUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		298831D51F18D4E800F6FFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4F98H3FLC5;
+				INFOPLIST_FILE = platypusMarkUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divjyotsingh.platypusMarkUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/platypusMarkUp.app/platypusMarkUp";
+			};
+			name = Debug;
+		};
+		298831D61F18D4E800F6FFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4F98H3FLC5;
+				INFOPLIST_FILE = platypusMarkUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divjyotsingh.platypusMarkUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/platypusMarkUp.app/platypusMarkUp";
+			};
+			name = Release;
+		};
+		298831D81F18D4E800F6FFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4F98H3FLC5;
+				INFOPLIST_FILE = platypusMarkUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divjyotsingh.platypusMarkUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = platypusMarkUp;
+			};
+			name = Debug;
+		};
+		298831D91F18D4E800F6FFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4F98H3FLC5;
+				INFOPLIST_FILE = platypusMarkUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.divjyotsingh.platypusMarkUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = platypusMarkUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		298831A11F18D4E800F6FFF4 /* Build configuration list for PBXProject "platypusMarkUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298831CF1F18D4E800F6FFF4 /* Debug */,
+				298831D01F18D4E800F6FFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		298831D11F18D4E800F6FFF4 /* Build configuration list for PBXNativeTarget "platypusMarkUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298831D21F18D4E800F6FFF4 /* Debug */,
+				298831D31F18D4E800F6FFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		298831D41F18D4E800F6FFF4 /* Build configuration list for PBXNativeTarget "platypusMarkUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298831D51F18D4E800F6FFF4 /* Debug */,
+				298831D61F18D4E800F6FFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		298831D71F18D4E800F6FFF4 /* Build configuration list for PBXNativeTarget "platypusMarkUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				298831D81F18D4E800F6FFF4 /* Debug */,
+				298831D91F18D4E800F6FFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		298831B01F18D4E800F6FFF4 /* platypusMarkUp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				298831B11F18D4E800F6FFF4 /* platypusMarkUp.xcdatamodel */,
+			);
+			currentVersion = 298831B11F18D4E800F6FFF4 /* platypusMarkUp.xcdatamodel */;
+			path = platypusMarkUp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2988319E1F18D4E800F6FFF4 /* Project object */;
+}
