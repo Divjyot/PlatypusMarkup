@@ -1,0 +1,1399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E5D43078811D1BB4D166C63D5C540A /* PDFActionURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4706EE1BB8D1893912D0A28AC73B0E5 /* PDFActionURL.swift */; };
+		03E640D727DAC863FF2E02EF8B3EC2DB /* PDFPathAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5426E2AF350C1A3F368A1BC1326F1FF9 /* PDFPathAnnotation.swift */; };
+		0DD42A259C48DF2741985B8888E192FA /* PDFDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A163A1968A7F169F42A5C8B981C1A2 /* PDFDictionary.swift */; };
+		0EB8C5B38E3DF86387D6A2E3A7704EB9 /* PDFPageScrubberTrackControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CB2C6EADD7107F62AB76CB46122B87 /* PDFPageScrubberTrackControl.swift */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D512ADD5B74586A594146BCE07C42199 /* Timeline.swift */; };
+		11E8FEEE0B52BDFB1319C00CA7C299C9 /* PDFPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD842011B9F84A31C4788934ABFA2E90 /* PDFPageContentView.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3647EE0C5F4E8DF68C0C93033345039 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25FEBD1D7DAFB83CDE11C7DBDECDBED5 /* PDFAnnotationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040ABDD873E3E0371DDF780D375C9562 /* PDFAnnotationController.swift */; };
+		2A5DC50B4884A6339254D717AE5AA778 /* Pods-platypusMarkUpUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBA1C0A0FFD1BC3465C51E27CA639470 /* Pods-platypusMarkUpUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D8E922BA4D5CF70CF4F08EEF9DDCCED /* PDFObjectParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E986A4ECF8B870F27058CCDE52E96E /* PDFObjectParser.swift */; };
+		2ED7E5981622B1BDE6F8A75D87686AE8 /* PDFAnnotationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9AD4B8EA4595C720FA98F327E3608A /* PDFAnnotationStore.swift */; };
+		34ED16CCDF12C310607E1C590BAD5369 /* PDFSinglePageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B473C3CA39B9F59F98A9F2187808091F /* PDFSinglePageViewer.swift */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBF506EDE8D1DF95CD1B184FD43DD22 /* TaskDelegate.swift */; };
+		3BE36A56748FFEA6CD855CD6CC285DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3BF066D0864CF468BAFA9E8838E074DD /* Pods-platypusMarkUpTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC2EAB61A3D0CA36D3BEE37FA28B1F /* Pods-platypusMarkUpTests-dummy.m */; };
+		3F56C1A4FC4769A99015909457CFF704 /* PDFThumbnailViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581044F7FC5AEE3B7F65D973B93E9168 /* PDFThumbnailViewCell.swift */; };
+		40ADA6F625ABE18A851ED78434C6B038 /* PDFThumbnailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B051BB1EA81D436BB015E8045B52D7B1 /* PDFThumbnailViewController.swift */; };
+		45B201C379A036554A7DD4EED6C9285F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		46BDD8DCB476AB229F260B053322893D /* PDFFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F6A6F85547ADACCEFC21875533BA2D /* PDFFormViewController.swift */; };
+		4FDE0ED457899A0B893F6B9A14CCB7D3 /* PDFActionGoTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AEDF9370E76AB3BEE54103223E39F9 /* PDFActionGoTo.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A5577A6694D932CD00F02D87306D0 /* Request.swift */; };
+		5498C5B1861DD9DB63F041CB421F7CEE /* PDFArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD362E51F8B81FDB5E1EA060D5432D5 /* PDFArray.swift */; };
+		5A54C614B00E6C6D8FE9193A829DF844 /* Pods-platypusMarkUp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5309832D9928CCC6ECF2291019732B /* Pods-platypusMarkUp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C622AF4D73A730D0FA0689D7BA45681 /* PDFAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB45CF90A415F69FDD8C72424AB8CF8 /* PDFAction.swift */; };
+		5D074EB5B5A143DEFDAEFC9587398168 /* PDFPageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5AC2C176F21CC6A6166265B4EA62C1 /* PDFPageContent.swift */; };
+		5DDC51D771B75EC0F84E9D2BE36E0475 /* UXMPDFKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A4990F994D09E0AC87AA04DA23F5FA0 /* UXMPDFKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1377AE95E0C8B38DBA73EDFA0AD2E82 /* DispatchQueue+Alamofire.swift */; };
+		6289E489E1527388B93E2AD63D35F1C0 /* PDFFormPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16309EC897BAAC3B5867F2BB295F69E8 /* PDFFormPageView.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5955BC921C20BFE6070DBFED43F89F /* ServerTrustPolicy.swift */; };
+		639B5F5D19944ACE19B8D9057CBEDEED /* PDFPageScrubberThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024B934C7AEFCD2F2944EE39EC930B1D /* PDFPageScrubberThumb.swift */; };
+		68AF7E3D0E9DCE553611FDBF53B20ADC /* PDFSnapshotCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EA68ED211C2D1DE415C5616BCFF913 /* PDFSnapshotCache.swift */; };
+		6944FCCDF208AE410D5733416FDB6055 /* Pods-platypusMarkUpTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3137B9359516CF14400E7C07AEB086 /* Pods-platypusMarkUpTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BF352A99D725BE56268938F4A0E77D0 /* PDFSinglePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7AEBA1353E3656FB5FCC9D79F66E8 /* PDFSinglePageCell.swift */; };
+		6CE066ABF7FC970380B3DD36C0FCC532 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7CDFEC25FB00D0B5BE7175160B9563 /* PDFViewController.swift */; };
+		7052398A52C9A06B08050503F6E31422 /* ResizeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAC8E2764E618E595971B49263CA306 /* ResizeableView.swift */; };
+		70CC6851795B9B6D0E7FF936DF1CE792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		71D1ADDE72D68DF69200D1FB9530ADBD /* PDFPageScrubber.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED50CA894D7DE7C5063C944255C0BDD4 /* PDFPageScrubber.swift */; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7649E09BD5A003E5958D4A20CC5356F1 /* Pods-platypusMarkUp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E402ABCF664BBDAC21D4734CCE3230ED /* Pods-platypusMarkUp-dummy.m */; };
+		7ACB8F1F0F9A37BD5D3C6AF1F4671C70 /* PDFRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7941F4C565E534483DF4C0247F4A7DD2 /* PDFRenderer.swift */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF51EE7A3B2B5185E8001FAF0670482 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940ED7C1EC3ACBAE3D45F0FA0AA217A /* Result.swift */; };
+		8180935C25400AB6D22F9C1E60B22C5A /* PDFTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48DB5BA29F7E9C5043DFC182789A8C8 /* PDFTextParser.swift */; };
+		8A71CF0593E0180FE964A8AB93F9EB1A /* PDFFormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B656042DC77261E21872598315EFB3A2 /* PDFFormTextField.swift */; };
+		8D60F4E8E423D490EFFE2618942BC953 /* PDFPageTileLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30A23493E50A9678ED7C7ACC983F31B /* PDFPageTileLayer.swift */; };
+		8FAB0FD3706DBD175B3CABB42BAE5103 /* CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81D439104756F93BB8C1701B85A9D09 /* CGRect.swift */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C31AF8AB3DBB91FAFDA742C46AA485 /* AFError.swift */; };
+		A00FBAA1398AF27D6D958D0AD2E37002 /* PDFThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24977B4FEDAEF1B953B21F7C20902DC /* PDFThumbnailView.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B54F610AE604477B5D5C8A51737521D /* NetworkReachabilityManager.swift */; };
+		A594C43CBD7ECA2E79E835C88BB575F4 /* PDFAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6068E8D97F23ACA87CA35D6F6217EF /* PDFAnnotation.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F2999A8F7AA61CF04385F85DD0660 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9ACF517127BBAC1B6DD61BD95D445A /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48673DE870301DDE09E19578553F2E33 /* MultipartFormData.swift */; };
+		B69E4DCDE86892606D5C63ABA495A39F /* PDFFormButtonField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1921D227A19FCE04AF496B757D9DAA0C /* PDFFormButtonField.swift */; };
+		BA1E0F2E350700950C4647E37606EE92 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C480FF0ED98D696C91759214B56C29 /* UIImage.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AB3460953671B8976B14EA7F590F22 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CEAAAD8DACC6C87ABB99907E9468DA /* ParameterEncoding.swift */; };
+		C6485CFF9D7E1E350BF1298E5AB0F745 /* PDFTextAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE20B58247E10E721AC93E0060D5D80 /* PDFTextAnnotation.swift */; };
+		C90FF042BE49A626B5A1D87DF168556B /* UXMPDFKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7BFDFE45A170C7614140E12604D71716 /* UXMPDFKit.bundle */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017C654BFE1F538F278F69C43C36D9C6 /* Response.swift */; };
+		CD35A46D5B46AEEB28D715AA59A2EF44 /* CGPDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61446F6C77B13BF85CAC605C80618A /* CGPDFDocument.swift */; };
+		CE384B554D220D27DEA1EE625F5B536B /* PDFFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A4EF61CF1F5B3FC2DA6DA7BB98577B3 /* PDFFormField.swift */; };
+		D5E9CD7A1C5D3E82F3143A2913323CA2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3C2CF335C7D27BFBF668ECEB58F32E /* Images.xcassets */; };
+		D6C030901C8DC7F78587E6CB2A4467F1 /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D53404BCDA3023440B67F2AB0EF59A /* CGPoint.swift */; };
+		D9DD77BF969A8BD462928170E5708765 /* Pods-platypusMarkUpUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C9DEAF15B7CF6B5FC7DD4134C30293 /* Pods-platypusMarkUpUITests-dummy.m */; };
+		DB80874ED5295117504ADBE2C9D87E95 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A8A214F08CAC95734FC8623A88907A /* UIColor.swift */; };
+		DE7E6F3D433742F4367A1310F51599AA /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBBB1C49B11EB8AEF1FBA388C7A289D /* UIViewController.swift */; };
+		DFEBBE3C91FD84E70AE5B53B4EBA78D2 /* UXMPDFKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20011256A381DC847011CC9A76FBBF34 /* UXMPDFKit-dummy.m */; };
+		E6C23927AB6AACF5F81643611DBEC0D5 /* PDFFormSignatureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E83639AA9774A3CF12527C2FE3B6EA1 /* PDFFormSignatureField.swift */; };
+		E864E0A514AD087AD4C4B9BEB22F70B6 /* PDFDocumentLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1883C0A04C72E089F92B8FC0BBFCAAB3 /* PDFDocumentLink.swift */; };
+		ED111E02E55C7204F4DCCE2793D630FD /* PDFToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4233E922229EE4E9549615F8886A7495 /* PDFToggleButton.swift */; };
+		ED8C3ECAC269C59E39FDC1337F7931D1 /* PDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B659D313AEF002A034AB5D5DC2EC049 /* PDFDocument.swift */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781EA8F35D0FE717BB924417147F43D /* Notifications.swift */; };
+		F668375503F2F0E8264753B8AB881E83 /* PDFBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE66491CDEFD62DFCB21BF884D63364 /* PDFBarButton.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA62B075C4D813A0E96568D6D29D279 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE708EB2446A2756AD0227AD0053C0 /* Alamofire.swift */; };
+		FE76C16FD8087CC6191F8C8CBFDFFD24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		323EFE0C7086233C6E750A3D58E93BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E259586C65378D5BA833D8BBDE12A374;
+			remoteInfo = "UXMPDFKit-UXMPDFKit";
+		};
+		D4B3006032F99D2E0879E82657EBE9AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDEF959A4E629DB751687692E31892D2;
+			remoteInfo = UXMPDFKit;
+		};
+		E1741066D7B625245BAFDA2BC362491B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		017C654BFE1F538F278F69C43C36D9C6 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		024B934C7AEFCD2F2944EE39EC930B1D /* PDFPageScrubberThumb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPageScrubberThumb.swift; path = Pod/Classes/Renderer/PDFPageScrubberThumb.swift; sourceTree = "<group>"; };
+		03CEAAAD8DACC6C87ABB99907E9468DA /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		040ABDD873E3E0371DDF780D375C9562 /* PDFAnnotationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFAnnotationController.swift; path = Pod/Classes/Annotations/PDFAnnotationController.swift; sourceTree = "<group>"; };
+		0781EA8F35D0FE717BB924417147F43D /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		07A163A1968A7F169F42A5C8B981C1A2 /* PDFDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFDictionary.swift; path = Pod/Classes/Form/PDFDictionary.swift; sourceTree = "<group>"; };
+		08CB2C6EADD7107F62AB76CB46122B87 /* PDFPageScrubberTrackControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPageScrubberTrackControl.swift; path = Pod/Classes/Renderer/PDFPageScrubberTrackControl.swift; sourceTree = "<group>"; };
+		0B5309832D9928CCC6ECF2291019732B /* Pods-platypusMarkUp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-platypusMarkUp-umbrella.h"; sourceTree = "<group>"; };
+		0BE66491CDEFD62DFCB21BF884D63364 /* PDFBarButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFBarButton.swift; path = Pod/Classes/View/PDFBarButton.swift; sourceTree = "<group>"; };
+		0FE31AD921FCECB48F4C5E7C5F4C32D4 /* UXMPDFKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UXMPDFKit.modulemap; sourceTree = "<group>"; };
+		13A8A214F08CAC95734FC8623A88907A /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = Pod/Classes/Extensions/UIColor.swift; sourceTree = "<group>"; };
+		14D53404BCDA3023440B67F2AB0EF59A /* CGPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPoint.swift; path = Pod/Classes/Extensions/CGPoint.swift; sourceTree = "<group>"; };
+		16309EC897BAAC3B5867F2BB295F69E8 /* PDFFormPageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFFormPageView.swift; path = Pod/Classes/Form/PDFFormPageView.swift; sourceTree = "<group>"; };
+		176CDF5F00C497F778A322A6811C2866 /* Pods_platypusMarkUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_platypusMarkUp.framework; path = "Pods-platypusMarkUp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1883C0A04C72E089F92B8FC0BBFCAAB3 /* PDFDocumentLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFDocumentLink.swift; path = Pod/Classes/Renderer/PDFDocumentLink.swift; sourceTree = "<group>"; };
+		1921D227A19FCE04AF496B757D9DAA0C /* PDFFormButtonField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFFormButtonField.swift; path = Pod/Classes/Form/PDFFormButtonField.swift; sourceTree = "<group>"; };
+		1BF294CF2AC9B85A0447C6612E1ADA1A /* Pods-platypusMarkUpTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-platypusMarkUpTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D5955BC921C20BFE6070DBFED43F89F /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		1E5AC2C176F21CC6A6166265B4EA62C1 /* PDFPageContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPageContent.swift; path = Pod/Classes/Renderer/PDFPageContent.swift; sourceTree = "<group>"; };
+		20011256A381DC847011CC9A76FBBF34 /* UXMPDFKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UXMPDFKit-dummy.m"; sourceTree = "<group>"; };
+		21B4FCB7E80D48211F3B4868468D250B /* Pods_platypusMarkUpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_platypusMarkUpTests.framework; path = "Pods-platypusMarkUpTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2223FE8E647672DE164BCF2EEFC73B9B /* Pods-platypusMarkUpTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-platypusMarkUpTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24FD9D6D8667B93E80156222FA359170 /* ResourceBundle-UXMPDFKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UXMPDFKit-Info.plist"; sourceTree = "<group>"; };
+		2EE429F32055DC7B5043D9210CE94A56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F067B45AA9E48FCFD365283F7AB3F17 /* Pods-platypusMarkUpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-platypusMarkUpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FFE708EB2446A2756AD0227AD0053C0 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		4233E922229EE4E9549615F8886A7495 /* PDFToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFToggleButton.swift; path = Pod/Classes/Form/PDFToggleButton.swift; sourceTree = "<group>"; };
+		4352FEE1B830F9D4624973A9A46180C4 /* UXMPDFKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UXMPDFKit-prefix.pch"; sourceTree = "<group>"; };
+		4474D4D4E74F699D7BF80EC1DC5A62B4 /* Pods-platypusMarkUp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-platypusMarkUp-resources.sh"; sourceTree = "<group>"; };
+		45AB3460953671B8976B14EA7F590F22 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		48673DE870301DDE09E19578553F2E33 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		5426E2AF350C1A3F368A1BC1326F1FF9 /* PDFPathAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPathAnnotation.swift; path = Pod/Classes/Annotations/PDFPathAnnotation.swift; sourceTree = "<group>"; };
+		54EA68ED211C2D1DE415C5616BCFF913 /* PDFSnapshotCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFSnapshotCache.swift; path = Pod/Classes/Renderer/PDFSnapshotCache.swift; sourceTree = "<group>"; };
+		55D9125EFC116048662E2698C8977C85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		562A50DCB305D5D65637FD943395CC5E /* Pods-platypusMarkUp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-platypusMarkUp.modulemap"; sourceTree = "<group>"; };
+		581044F7FC5AEE3B7F65D973B93E9168 /* PDFThumbnailViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFThumbnailViewCell.swift; path = Pod/Classes/Renderer/PDFThumbnailViewCell.swift; sourceTree = "<group>"; };
+		5A4990F994D09E0AC87AA04DA23F5FA0 /* UXMPDFKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UXMPDFKit-umbrella.h"; sourceTree = "<group>"; };
+		5CF7AEBA1353E3656FB5FCC9D79F66E8 /* PDFSinglePageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFSinglePageCell.swift; path = Pod/Classes/Renderer/PDFSinglePageCell.swift; sourceTree = "<group>"; };
+		5E3137B9359516CF14400E7C07AEB086 /* Pods-platypusMarkUpTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-platypusMarkUpTests-umbrella.h"; sourceTree = "<group>"; };
+		5E83639AA9774A3CF12527C2FE3B6EA1 /* PDFFormSignatureField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFFormSignatureField.swift; path = Pod/Classes/Form/PDFFormSignatureField.swift; sourceTree = "<group>"; };
+		5EA62B075C4D813A0E96568D6D29D279 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		5FAC8E2764E618E595971B49263CA306 /* ResizeableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResizeableView.swift; path = Pod/Classes/View/ResizeableView.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		661852BFEE5E7EB67FEFE324189D1AD5 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		69D51D67BA12BC1E43EE10B22EED9649 /* Pods-platypusMarkUpTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-platypusMarkUpTests-resources.sh"; sourceTree = "<group>"; };
+		6A7042360E742CCC88D4D5478ADCAA8C /* Pods-platypusMarkUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-platypusMarkUp.debug.xcconfig"; sourceTree = "<group>"; };
+		6AD5818ED58E99768530B247E2F6F525 /* Pods-platypusMarkUpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-platypusMarkUpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B45F976C65D8222E1ED3F8B26FB040E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5405D7017AC85F4E14D1433C460EB9 /* UXMPDFKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UXMPDFKit.framework; path = UXMPDFKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFC2EAB61A3D0CA36D3BEE37FA28B1F /* Pods-platypusMarkUpTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-platypusMarkUpTests-dummy.m"; sourceTree = "<group>"; };
+		73AFF97D1150B57F0108C3503AACFCCD /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F6A6F85547ADACCEFC21875533BA2D /* PDFFormViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFFormViewController.swift; path = Pod/Classes/Form/PDFFormViewController.swift; sourceTree = "<group>"; };
+		7941F4C565E534483DF4C0247F4A7DD2 /* PDFRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFRenderer.swift; path = Pod/Classes/Renderer/PDFRenderer.swift; sourceTree = "<group>"; };
+		794D2919DE33E47807D2E5DC81862CFB /* Pods-platypusMarkUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-platypusMarkUp.release.xcconfig"; sourceTree = "<group>"; };
+		7A4EF61CF1F5B3FC2DA6DA7BB98577B3 /* PDFFormField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFFormField.swift; path = Pod/Classes/Form/PDFFormField.swift; sourceTree = "<group>"; };
+		7B659D313AEF002A034AB5D5DC2EC049 /* PDFDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFDocument.swift; path = Pod/Classes/Renderer/PDFDocument.swift; sourceTree = "<group>"; };
+		7BFDFE45A170C7614140E12604D71716 /* UXMPDFKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = UXMPDFKit.bundle; path = UXMPDFKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD362E51F8B81FDB5E1EA060D5432D5 /* PDFArray.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFArray.swift; path = Pod/Classes/Form/PDFArray.swift; sourceTree = "<group>"; };
+		7DC78CE42EF742C19CF54DCEC679EA15 /* Pods-platypusMarkUp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-platypusMarkUp-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EF51EE7A3B2B5185E8001FAF0670482 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		83C31AF8AB3DBB91FAFDA742C46AA485 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		84F61266E4421D2ACEE1FDCEF9873DAF /* Pods_platypusMarkUpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_platypusMarkUpUITests.framework; path = "Pods-platypusMarkUpUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B75A69C7405BB3A7C98DE926E9E96D /* UXMPDFKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UXMPDFKit.xcconfig; sourceTree = "<group>"; };
+		8A3C2CF335C7D27BFBF668ECEB58F32E /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Pod/Assets/Images.xcassets; sourceTree = "<group>"; };
+		8B54F610AE604477B5D5C8A51737521D /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		8C40256E54015177E73CAF79441BDE3E /* Pods-platypusMarkUpUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-platypusMarkUpUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E6068E8D97F23ACA87CA35D6F6217EF /* PDFAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFAnnotation.swift; path = Pod/Classes/Annotations/PDFAnnotation.swift; sourceTree = "<group>"; };
+		8F1F2999A8F7AA61CF04385F85DD0660 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942D399DB0875849663BDD6351C81150 /* Pods-platypusMarkUpUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-platypusMarkUpUITests-resources.sh"; sourceTree = "<group>"; };
+		9AE5D0F50556F2FA7FCD5123F342F0DB /* Pods-platypusMarkUp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-platypusMarkUp-frameworks.sh"; sourceTree = "<group>"; };
+		9E7CDFEC25FB00D0B5BE7175160B9563 /* PDFViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFViewController.swift; path = Pod/Classes/Renderer/PDFViewController.swift; sourceTree = "<group>"; };
+		A0C9DEAF15B7CF6B5FC7DD4134C30293 /* Pods-platypusMarkUpUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-platypusMarkUpUITests-dummy.m"; sourceTree = "<group>"; };
+		A3647EE0C5F4E8DF68C0C93033345039 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		A81D439104756F93BB8C1701B85A9D09 /* CGRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRect.swift; path = Pod/Classes/Extensions/CGRect.swift; sourceTree = "<group>"; };
+		ACDE6A7F98470B257396F666A4C2D47B /* Pods-platypusMarkUp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-platypusMarkUp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD4A5577A6694D932CD00F02D87306D0 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		B051BB1EA81D436BB015E8045B52D7B1 /* PDFThumbnailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFThumbnailViewController.swift; path = Pod/Classes/Renderer/PDFThumbnailViewController.swift; sourceTree = "<group>"; };
+		B473C3CA39B9F59F98A9F2187808091F /* PDFSinglePageViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFSinglePageViewer.swift; path = Pod/Classes/Renderer/PDFSinglePageViewer.swift; sourceTree = "<group>"; };
+		B656042DC77261E21872598315EFB3A2 /* PDFFormTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFFormTextField.swift; path = Pod/Classes/Form/PDFFormTextField.swift; sourceTree = "<group>"; };
+		B940ED7C1EC3ACBAE3D45F0FA0AA217A /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		B96F0D09C848F15DA225575E32F084BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0F759E08EE8431CFB2ECCFA21FEC74 /* Pods-platypusMarkUpUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-platypusMarkUpUITests.modulemap"; sourceTree = "<group>"; };
+		C1377AE95E0C8B38DBA73EDFA0AD2E82 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		C24977B4FEDAEF1B953B21F7C20902DC /* PDFThumbnailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFThumbnailView.swift; path = Pod/Classes/Renderer/PDFThumbnailView.swift; sourceTree = "<group>"; };
+		C2AEDF9370E76AB3BEE54103223E39F9 /* PDFActionGoTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFActionGoTo.swift; path = Pod/Classes/Model/PDFActionGoTo.swift; sourceTree = "<group>"; };
+		C30A23493E50A9678ED7C7ACC983F31B /* PDFPageTileLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPageTileLayer.swift; path = Pod/Classes/Renderer/PDFPageTileLayer.swift; sourceTree = "<group>"; };
+		C34466B273B5A10E71DFE640CD755439 /* Pods-platypusMarkUpUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-platypusMarkUpUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C45D74522E0555C4C33743FB9570F118 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF8DB0CEDF2653A89FCFE115A4347D8 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		CCBBB1C49B11EB8AEF1FBA388C7A289D /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = Pod/Classes/Extensions/UIViewController.swift; sourceTree = "<group>"; };
+		D4706EE1BB8D1893912D0A28AC73B0E5 /* PDFActionURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFActionURL.swift; path = Pod/Classes/Model/PDFActionURL.swift; sourceTree = "<group>"; };
+		D48DB5BA29F7E9C5043DFC182789A8C8 /* PDFTextParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFTextParser.swift; path = Pod/Classes/TextParser/PDFTextParser.swift; sourceTree = "<group>"; };
+		D512ADD5B74586A594146BCE07C42199 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		D6E986A4ECF8B870F27058CCDE52E96E /* PDFObjectParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFObjectParser.swift; path = Pod/Classes/Form/PDFObjectParser.swift; sourceTree = "<group>"; };
+		DBE20B58247E10E721AC93E0060D5D80 /* PDFTextAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFTextAnnotation.swift; path = Pod/Classes/Annotations/PDFTextAnnotation.swift; sourceTree = "<group>"; };
+		DD842011B9F84A31C4788934ABFA2E90 /* PDFPageContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPageContentView.swift; path = Pod/Classes/Renderer/PDFPageContentView.swift; sourceTree = "<group>"; };
+		DD9ACF517127BBAC1B6DD61BD95D445A /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		DDBF506EDE8D1DF95CD1B184FD43DD22 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		DF9AD4B8EA4595C720FA98F327E3608A /* PDFAnnotationStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFAnnotationStore.swift; path = Pod/Classes/Annotations/PDFAnnotationStore.swift; sourceTree = "<group>"; };
+		DFB45CF90A415F69FDD8C72424AB8CF8 /* PDFAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFAction.swift; path = Pod/Classes/Model/PDFAction.swift; sourceTree = "<group>"; };
+		E2AF6F86FB62C9AA1E2349DDE1202479 /* Pods-platypusMarkUpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-platypusMarkUpTests.release.xcconfig"; sourceTree = "<group>"; };
+		E402ABCF664BBDAC21D4734CCE3230ED /* Pods-platypusMarkUp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-platypusMarkUp-dummy.m"; sourceTree = "<group>"; };
+		E6E0AA19B55D5BD478E168F493C5A8EB /* Pods-platypusMarkUpTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-platypusMarkUpTests-frameworks.sh"; sourceTree = "<group>"; };
+		E8C480FF0ED98D696C91759214B56C29 /* UIImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Pod/Classes/Extensions/UIImage.swift; sourceTree = "<group>"; };
+		EC61446F6C77B13BF85CAC605C80618A /* CGPDFDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPDFDocument.swift; path = Pod/Classes/Renderer/CGPDFDocument.swift; sourceTree = "<group>"; };
+		ED50CA894D7DE7C5063C944255C0BDD4 /* PDFPageScrubber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPageScrubber.swift; path = Pod/Classes/Renderer/PDFPageScrubber.swift; sourceTree = "<group>"; };
+		F1D9FC678304913CD839D40A136DA93E /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		F2989DE76C0BB89486EA704FF5D2287A /* Pods-platypusMarkUpTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-platypusMarkUpTests.modulemap"; sourceTree = "<group>"; };
+		FA606D31DD10B023E333FEF791D9DB75 /* Pods-platypusMarkUpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-platypusMarkUpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB83A8341039B573EA331A9CADB0B32F /* Pods-platypusMarkUpUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-platypusMarkUpUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBA1C0A0FFD1BC3465C51E27CA639470 /* Pods-platypusMarkUpUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-platypusMarkUpUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E853640A9D8C650B6B4C3823309898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B201C379A036554A7DD4EED6C9285F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABCB0D52F18EDEB20608E2548F4B88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE36A56748FFEA6CD855CD6CC285DAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92823A1EF9107195955B69A5B2716C63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70CC6851795B9B6D0E7FF936DF1CE792 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C809D9B9AA12FD3F90F9C72CF2027E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE76C16FD8087CC6191F8C8CBFDFFD24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F587E5D498E4C67430D46612E80789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2662B629BE567AA07248C2933A01A58A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4BB2D5FE6BD77036E821B5B1EC067D8 /* Pods-platypusMarkUp */,
+				E52AA7460F5315E05281DCACB7A13525 /* Pods-platypusMarkUpTests */,
+				6B01BC9D6C500492085CF9CB72AB179F /* Pods-platypusMarkUpUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		32B4852EAE408F1DD1714DA460C51D79 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C45D74522E0555C4C33743FB9570F118 /* Info.plist */,
+				24FD9D6D8667B93E80156222FA359170 /* ResourceBundle-UXMPDFKit-Info.plist */,
+				0FE31AD921FCECB48F4C5E7C5F4C32D4 /* UXMPDFKit.modulemap */,
+				87B75A69C7405BB3A7C98DE926E9E96D /* UXMPDFKit.xcconfig */,
+				20011256A381DC847011CC9A76FBBF34 /* UXMPDFKit-dummy.m */,
+				4352FEE1B830F9D4624973A9A46180C4 /* UXMPDFKit-prefix.pch */,
+				5A4990F994D09E0AC87AA04DA23F5FA0 /* UXMPDFKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UXMPDFKit";
+			sourceTree = "<group>";
+		};
+		51F39880C39B246ED9DA1DF99C8AE8C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73AFF97D1150B57F0108C3503AACFCCD /* Alamofire.framework */,
+				176CDF5F00C497F778A322A6811C2866 /* Pods_platypusMarkUp.framework */,
+				21B4FCB7E80D48211F3B4868468D250B /* Pods_platypusMarkUpTests.framework */,
+				84F61266E4421D2ACEE1FDCEF9873DAF /* Pods_platypusMarkUpUITests.framework */,
+				7BFDFE45A170C7614140E12604D71716 /* UXMPDFKit.bundle */,
+				6B5405D7017AC85F4E14D1433C460EB9 /* UXMPDFKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		543796DA02E9D11601A7DF9179A70903 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				83C31AF8AB3DBB91FAFDA742C46AA485 /* AFError.swift */,
+				3FFE708EB2446A2756AD0227AD0053C0 /* Alamofire.swift */,
+				C1377AE95E0C8B38DBA73EDFA0AD2E82 /* DispatchQueue+Alamofire.swift */,
+				48673DE870301DDE09E19578553F2E33 /* MultipartFormData.swift */,
+				8B54F610AE604477B5D5C8A51737521D /* NetworkReachabilityManager.swift */,
+				0781EA8F35D0FE717BB924417147F43D /* Notifications.swift */,
+				03CEAAAD8DACC6C87ABB99907E9468DA /* ParameterEncoding.swift */,
+				AD4A5577A6694D932CD00F02D87306D0 /* Request.swift */,
+				017C654BFE1F538F278F69C43C36D9C6 /* Response.swift */,
+				5EA62B075C4D813A0E96568D6D29D279 /* ResponseSerialization.swift */,
+				B940ED7C1EC3ACBAE3D45F0FA0AA217A /* Result.swift */,
+				1D5955BC921C20BFE6070DBFED43F89F /* ServerTrustPolicy.swift */,
+				7EF51EE7A3B2B5185E8001FAF0670482 /* SessionDelegate.swift */,
+				DD9ACF517127BBAC1B6DD61BD95D445A /* SessionManager.swift */,
+				DDBF506EDE8D1DF95CD1B184FD43DD22 /* TaskDelegate.swift */,
+				D512ADD5B74586A594146BCE07C42199 /* Timeline.swift */,
+				45AB3460953671B8976B14EA7F590F22 /* Validation.swift */,
+				DB9EBCD61902758BFF3272A5EA60EAEF /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		6AF271BE51E37FB8ADDAB7B62886AA7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8A3C2CF335C7D27BFBF668ECEB58F32E /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6B01BC9D6C500492085CF9CB72AB179F /* Pods-platypusMarkUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55D9125EFC116048662E2698C8977C85 /* Info.plist */,
+				BE0F759E08EE8431CFB2ECCFA21FEC74 /* Pods-platypusMarkUpUITests.modulemap */,
+				FB83A8341039B573EA331A9CADB0B32F /* Pods-platypusMarkUpUITests-acknowledgements.markdown */,
+				8C40256E54015177E73CAF79441BDE3E /* Pods-platypusMarkUpUITests-acknowledgements.plist */,
+				A0C9DEAF15B7CF6B5FC7DD4134C30293 /* Pods-platypusMarkUpUITests-dummy.m */,
+				C34466B273B5A10E71DFE640CD755439 /* Pods-platypusMarkUpUITests-frameworks.sh */,
+				942D399DB0875849663BDD6351C81150 /* Pods-platypusMarkUpUITests-resources.sh */,
+				FBA1C0A0FFD1BC3465C51E27CA639470 /* Pods-platypusMarkUpUITests-umbrella.h */,
+				FA606D31DD10B023E333FEF791D9DB75 /* Pods-platypusMarkUpUITests.debug.xcconfig */,
+				6AD5818ED58E99768530B247E2F6F525 /* Pods-platypusMarkUpUITests.release.xcconfig */,
+			);
+			name = "Pods-platypusMarkUpUITests";
+			path = "Target Support Files/Pods-platypusMarkUpUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				824C6EB30C5DAD0296EDA4F5AF7B20FA /* Pods */,
+				51F39880C39B246ED9DA1DF99C8AE8C8 /* Products */,
+				2662B629BE567AA07248C2933A01A58A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		824C6EB30C5DAD0296EDA4F5AF7B20FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				543796DA02E9D11601A7DF9179A70903 /* Alamofire */,
+				E211B42CEA8F4BEC4CEA51CE1306B53C /* UXMPDFKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DB9EBCD61902758BFF3272A5EA60EAEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				661852BFEE5E7EB67FEFE324189D1AD5 /* Alamofire.modulemap */,
+				CAF8DB0CEDF2653A89FCFE115A4347D8 /* Alamofire.xcconfig */,
+				8F1F2999A8F7AA61CF04385F85DD0660 /* Alamofire-dummy.m */,
+				F1D9FC678304913CD839D40A136DA93E /* Alamofire-prefix.pch */,
+				A3647EE0C5F4E8DF68C0C93033345039 /* Alamofire-umbrella.h */,
+				6B45F976C65D8222E1ED3F8B26FB040E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		E211B42CEA8F4BEC4CEA51CE1306B53C /* UXMPDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				EC61446F6C77B13BF85CAC605C80618A /* CGPDFDocument.swift */,
+				14D53404BCDA3023440B67F2AB0EF59A /* CGPoint.swift */,
+				A81D439104756F93BB8C1701B85A9D09 /* CGRect.swift */,
+				DFB45CF90A415F69FDD8C72424AB8CF8 /* PDFAction.swift */,
+				C2AEDF9370E76AB3BEE54103223E39F9 /* PDFActionGoTo.swift */,
+				D4706EE1BB8D1893912D0A28AC73B0E5 /* PDFActionURL.swift */,
+				8E6068E8D97F23ACA87CA35D6F6217EF /* PDFAnnotation.swift */,
+				040ABDD873E3E0371DDF780D375C9562 /* PDFAnnotationController.swift */,
+				DF9AD4B8EA4595C720FA98F327E3608A /* PDFAnnotationStore.swift */,
+				7CD362E51F8B81FDB5E1EA060D5432D5 /* PDFArray.swift */,
+				0BE66491CDEFD62DFCB21BF884D63364 /* PDFBarButton.swift */,
+				07A163A1968A7F169F42A5C8B981C1A2 /* PDFDictionary.swift */,
+				7B659D313AEF002A034AB5D5DC2EC049 /* PDFDocument.swift */,
+				1883C0A04C72E089F92B8FC0BBFCAAB3 /* PDFDocumentLink.swift */,
+				1921D227A19FCE04AF496B757D9DAA0C /* PDFFormButtonField.swift */,
+				7A4EF61CF1F5B3FC2DA6DA7BB98577B3 /* PDFFormField.swift */,
+				16309EC897BAAC3B5867F2BB295F69E8 /* PDFFormPageView.swift */,
+				5E83639AA9774A3CF12527C2FE3B6EA1 /* PDFFormSignatureField.swift */,
+				B656042DC77261E21872598315EFB3A2 /* PDFFormTextField.swift */,
+				73F6A6F85547ADACCEFC21875533BA2D /* PDFFormViewController.swift */,
+				D6E986A4ECF8B870F27058CCDE52E96E /* PDFObjectParser.swift */,
+				1E5AC2C176F21CC6A6166265B4EA62C1 /* PDFPageContent.swift */,
+				DD842011B9F84A31C4788934ABFA2E90 /* PDFPageContentView.swift */,
+				ED50CA894D7DE7C5063C944255C0BDD4 /* PDFPageScrubber.swift */,
+				024B934C7AEFCD2F2944EE39EC930B1D /* PDFPageScrubberThumb.swift */,
+				08CB2C6EADD7107F62AB76CB46122B87 /* PDFPageScrubberTrackControl.swift */,
+				C30A23493E50A9678ED7C7ACC983F31B /* PDFPageTileLayer.swift */,
+				5426E2AF350C1A3F368A1BC1326F1FF9 /* PDFPathAnnotation.swift */,
+				7941F4C565E534483DF4C0247F4A7DD2 /* PDFRenderer.swift */,
+				5CF7AEBA1353E3656FB5FCC9D79F66E8 /* PDFSinglePageCell.swift */,
+				B473C3CA39B9F59F98A9F2187808091F /* PDFSinglePageViewer.swift */,
+				54EA68ED211C2D1DE415C5616BCFF913 /* PDFSnapshotCache.swift */,
+				DBE20B58247E10E721AC93E0060D5D80 /* PDFTextAnnotation.swift */,
+				D48DB5BA29F7E9C5043DFC182789A8C8 /* PDFTextParser.swift */,
+				C24977B4FEDAEF1B953B21F7C20902DC /* PDFThumbnailView.swift */,
+				581044F7FC5AEE3B7F65D973B93E9168 /* PDFThumbnailViewCell.swift */,
+				B051BB1EA81D436BB015E8045B52D7B1 /* PDFThumbnailViewController.swift */,
+				4233E922229EE4E9549615F8886A7495 /* PDFToggleButton.swift */,
+				9E7CDFEC25FB00D0B5BE7175160B9563 /* PDFViewController.swift */,
+				5FAC8E2764E618E595971B49263CA306 /* ResizeableView.swift */,
+				13A8A214F08CAC95734FC8623A88907A /* UIColor.swift */,
+				E8C480FF0ED98D696C91759214B56C29 /* UIImage.swift */,
+				CCBBB1C49B11EB8AEF1FBA388C7A289D /* UIViewController.swift */,
+				6AF271BE51E37FB8ADDAB7B62886AA7C /* Resources */,
+				32B4852EAE408F1DD1714DA460C51D79 /* Support Files */,
+			);
+			name = UXMPDFKit;
+			path = UXMPDFKit;
+			sourceTree = "<group>";
+		};
+		E52AA7460F5315E05281DCACB7A13525 /* Pods-platypusMarkUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EE429F32055DC7B5043D9210CE94A56 /* Info.plist */,
+				F2989DE76C0BB89486EA704FF5D2287A /* Pods-platypusMarkUpTests.modulemap */,
+				2223FE8E647672DE164BCF2EEFC73B9B /* Pods-platypusMarkUpTests-acknowledgements.markdown */,
+				1BF294CF2AC9B85A0447C6612E1ADA1A /* Pods-platypusMarkUpTests-acknowledgements.plist */,
+				6FFC2EAB61A3D0CA36D3BEE37FA28B1F /* Pods-platypusMarkUpTests-dummy.m */,
+				E6E0AA19B55D5BD478E168F493C5A8EB /* Pods-platypusMarkUpTests-frameworks.sh */,
+				69D51D67BA12BC1E43EE10B22EED9649 /* Pods-platypusMarkUpTests-resources.sh */,
+				5E3137B9359516CF14400E7C07AEB086 /* Pods-platypusMarkUpTests-umbrella.h */,
+				2F067B45AA9E48FCFD365283F7AB3F17 /* Pods-platypusMarkUpTests.debug.xcconfig */,
+				E2AF6F86FB62C9AA1E2349DDE1202479 /* Pods-platypusMarkUpTests.release.xcconfig */,
+			);
+			name = "Pods-platypusMarkUpTests";
+			path = "Target Support Files/Pods-platypusMarkUpTests";
+			sourceTree = "<group>";
+		};
+		F4BB2D5FE6BD77036E821B5B1EC067D8 /* Pods-platypusMarkUp */ = {
+			isa = PBXGroup;
+			children = (
+				B96F0D09C848F15DA225575E32F084BE /* Info.plist */,
+				562A50DCB305D5D65637FD943395CC5E /* Pods-platypusMarkUp.modulemap */,
+				ACDE6A7F98470B257396F666A4C2D47B /* Pods-platypusMarkUp-acknowledgements.markdown */,
+				7DC78CE42EF742C19CF54DCEC679EA15 /* Pods-platypusMarkUp-acknowledgements.plist */,
+				E402ABCF664BBDAC21D4734CCE3230ED /* Pods-platypusMarkUp-dummy.m */,
+				9AE5D0F50556F2FA7FCD5123F342F0DB /* Pods-platypusMarkUp-frameworks.sh */,
+				4474D4D4E74F699D7BF80EC1DC5A62B4 /* Pods-platypusMarkUp-resources.sh */,
+				0B5309832D9928CCC6ECF2291019732B /* Pods-platypusMarkUp-umbrella.h */,
+				6A7042360E742CCC88D4D5478ADCAA8C /* Pods-platypusMarkUp.debug.xcconfig */,
+				794D2919DE33E47807D2E5DC81862CFB /* Pods-platypusMarkUp.release.xcconfig */,
+			);
+			name = "Pods-platypusMarkUp";
+			path = "Target Support Files/Pods-platypusMarkUp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47BE7A7A16D5482CEF23CABD31D8EF64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5DC50B4884A6339254D717AE5AA778 /* Pods-platypusMarkUpUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D1DF80810603940CC08D5C34C4CA4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDC51D771B75EC0F84E9D2BE36E0475 /* UXMPDFKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BF0AF407CCDA21DB5BB9B491AB1D39 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6944FCCDF208AE410D5733416FDB6055 /* Pods-platypusMarkUpTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1E46395D04C2A57E8AD12EE7E339F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A54C614B00E6C6D8FE9193A829DF844 /* Pods-platypusMarkUp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4BF905D6429B10CC08FA9FEF248A03D8 /* Pods-platypusMarkUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A747110DF0339157EDC1F72981DD7C09 /* Build configuration list for PBXNativeTarget "Pods-platypusMarkUp" */;
+			buildPhases = (
+				501F6EF308489C4055108EC8681E1D33 /* Sources */,
+				B3C809D9B9AA12FD3F90F9C72CF2027E /* Frameworks */,
+				FB1E46395D04C2A57E8AD12EE7E339F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E501670E7AF12A745F29F5515EF74CFE /* PBXTargetDependency */,
+				E836BF7294B861C5836CE26766742D2E /* PBXTargetDependency */,
+			);
+			name = "Pods-platypusMarkUp";
+			productName = "Pods-platypusMarkUp";
+			productReference = 176CDF5F00C497F778A322A6811C2866 /* Pods_platypusMarkUp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		766FBE3C0E1D3D8C4CCB66AF146B2577 /* Pods-platypusMarkUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 927E52EB1AB5362ABFA19887808228F8 /* Build configuration list for PBXNativeTarget "Pods-platypusMarkUpUITests" */;
+			buildPhases = (
+				B2D8E5F1240D613F3BC79808063C50EF /* Sources */,
+				84E853640A9D8C650B6B4C3823309898 /* Frameworks */,
+				47BE7A7A16D5482CEF23CABD31D8EF64 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-platypusMarkUpUITests";
+			productName = "Pods-platypusMarkUpUITests";
+			productReference = 84F61266E4421D2ACEE1FDCEF9873DAF /* Pods_platypusMarkUpUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D8E624A72A5BBD1EE5915ECC0A2A039 /* Pods-platypusMarkUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6CE39BDF7413CFA44A3061EB6CFDC7E /* Build configuration list for PBXNativeTarget "Pods-platypusMarkUpTests" */;
+			buildPhases = (
+				3FFB8CABC538A866A4A26D0CB829CFAD /* Sources */,
+				8ABCB0D52F18EDEB20608E2548F4B88C /* Frameworks */,
+				B9BF0AF407CCDA21DB5BB9B491AB1D39 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-platypusMarkUpTests";
+			productName = "Pods-platypusMarkUpTests";
+			productReference = 21B4FCB7E80D48211F3B4868468D250B /* Pods_platypusMarkUpTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 73AFF97D1150B57F0108C3503AACFCCD /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDEF959A4E629DB751687692E31892D2 /* UXMPDFKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA026440A961E55FA934A36AC4D38417 /* Build configuration list for PBXNativeTarget "UXMPDFKit" */;
+			buildPhases = (
+				088BE15143DED34CE2733175DC847C14 /* Sources */,
+				92823A1EF9107195955B69A5B2716C63 /* Frameworks */,
+				5E6B2055BC6B835B444BFCE638B20C07 /* Resources */,
+				67D1DF80810603940CC08D5C34C4CA4D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4851818782E7C49DBE3318527108626 /* PBXTargetDependency */,
+			);
+			name = UXMPDFKit;
+			productName = UXMPDFKit;
+			productReference = 6B5405D7017AC85F4E14D1433C460EB9 /* UXMPDFKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E259586C65378D5BA833D8BBDE12A374 /* UXMPDFKit-UXMPDFKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BDDE68C96259E108E70529334CB027 /* Build configuration list for PBXNativeTarget "UXMPDFKit-UXMPDFKit" */;
+			buildPhases = (
+				AA5B38F867B7667EADFF681D2C718098 /* Sources */,
+				B3F587E5D498E4C67430D46612E80789 /* Frameworks */,
+				6460354D881CA77ABFBC6826D1C0E664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UXMPDFKit-UXMPDFKit";
+			productName = "UXMPDFKit-UXMPDFKit";
+			productReference = 7BFDFE45A170C7614140E12604D71716 /* UXMPDFKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 51F39880C39B246ED9DA1DF99C8AE8C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				4BF905D6429B10CC08FA9FEF248A03D8 /* Pods-platypusMarkUp */,
+				7D8E624A72A5BBD1EE5915ECC0A2A039 /* Pods-platypusMarkUpTests */,
+				766FBE3C0E1D3D8C4CCB66AF146B2577 /* Pods-platypusMarkUpUITests */,
+				BDEF959A4E629DB751687692E31892D2 /* UXMPDFKit */,
+				E259586C65378D5BA833D8BBDE12A374 /* UXMPDFKit-UXMPDFKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E6B2055BC6B835B444BFCE638B20C07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C90FF042BE49A626B5A1D87DF168556B /* UXMPDFKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6460354D881CA77ABFBC6826D1C0E664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E9CD7A1C5D3E82F3143A2913323CA2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088BE15143DED34CE2733175DC847C14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD35A46D5B46AEEB28D715AA59A2EF44 /* CGPDFDocument.swift in Sources */,
+				D6C030901C8DC7F78587E6CB2A4467F1 /* CGPoint.swift in Sources */,
+				8FAB0FD3706DBD175B3CABB42BAE5103 /* CGRect.swift in Sources */,
+				5C622AF4D73A730D0FA0689D7BA45681 /* PDFAction.swift in Sources */,
+				4FDE0ED457899A0B893F6B9A14CCB7D3 /* PDFActionGoTo.swift in Sources */,
+				01E5D43078811D1BB4D166C63D5C540A /* PDFActionURL.swift in Sources */,
+				A594C43CBD7ECA2E79E835C88BB575F4 /* PDFAnnotation.swift in Sources */,
+				25FEBD1D7DAFB83CDE11C7DBDECDBED5 /* PDFAnnotationController.swift in Sources */,
+				2ED7E5981622B1BDE6F8A75D87686AE8 /* PDFAnnotationStore.swift in Sources */,
+				5498C5B1861DD9DB63F041CB421F7CEE /* PDFArray.swift in Sources */,
+				F668375503F2F0E8264753B8AB881E83 /* PDFBarButton.swift in Sources */,
+				0DD42A259C48DF2741985B8888E192FA /* PDFDictionary.swift in Sources */,
+				ED8C3ECAC269C59E39FDC1337F7931D1 /* PDFDocument.swift in Sources */,
+				E864E0A514AD087AD4C4B9BEB22F70B6 /* PDFDocumentLink.swift in Sources */,
+				B69E4DCDE86892606D5C63ABA495A39F /* PDFFormButtonField.swift in Sources */,
+				CE384B554D220D27DEA1EE625F5B536B /* PDFFormField.swift in Sources */,
+				6289E489E1527388B93E2AD63D35F1C0 /* PDFFormPageView.swift in Sources */,
+				E6C23927AB6AACF5F81643611DBEC0D5 /* PDFFormSignatureField.swift in Sources */,
+				8A71CF0593E0180FE964A8AB93F9EB1A /* PDFFormTextField.swift in Sources */,
+				46BDD8DCB476AB229F260B053322893D /* PDFFormViewController.swift in Sources */,
+				2D8E922BA4D5CF70CF4F08EEF9DDCCED /* PDFObjectParser.swift in Sources */,
+				5D074EB5B5A143DEFDAEFC9587398168 /* PDFPageContent.swift in Sources */,
+				11E8FEEE0B52BDFB1319C00CA7C299C9 /* PDFPageContentView.swift in Sources */,
+				71D1ADDE72D68DF69200D1FB9530ADBD /* PDFPageScrubber.swift in Sources */,
+				639B5F5D19944ACE19B8D9057CBEDEED /* PDFPageScrubberThumb.swift in Sources */,
+				0EB8C5B38E3DF86387D6A2E3A7704EB9 /* PDFPageScrubberTrackControl.swift in Sources */,
+				8D60F4E8E423D490EFFE2618942BC953 /* PDFPageTileLayer.swift in Sources */,
+				03E640D727DAC863FF2E02EF8B3EC2DB /* PDFPathAnnotation.swift in Sources */,
+				7ACB8F1F0F9A37BD5D3C6AF1F4671C70 /* PDFRenderer.swift in Sources */,
+				6BF352A99D725BE56268938F4A0E77D0 /* PDFSinglePageCell.swift in Sources */,
+				34ED16CCDF12C310607E1C590BAD5369 /* PDFSinglePageViewer.swift in Sources */,
+				68AF7E3D0E9DCE553611FDBF53B20ADC /* PDFSnapshotCache.swift in Sources */,
+				C6485CFF9D7E1E350BF1298E5AB0F745 /* PDFTextAnnotation.swift in Sources */,
+				8180935C25400AB6D22F9C1E60B22C5A /* PDFTextParser.swift in Sources */,
+				A00FBAA1398AF27D6D958D0AD2E37002 /* PDFThumbnailView.swift in Sources */,
+				3F56C1A4FC4769A99015909457CFF704 /* PDFThumbnailViewCell.swift in Sources */,
+				40ADA6F625ABE18A851ED78434C6B038 /* PDFThumbnailViewController.swift in Sources */,
+				ED111E02E55C7204F4DCCE2793D630FD /* PDFToggleButton.swift in Sources */,
+				6CE066ABF7FC970380B3DD36C0FCC532 /* PDFViewController.swift in Sources */,
+				7052398A52C9A06B08050503F6E31422 /* ResizeableView.swift in Sources */,
+				DB80874ED5295117504ADBE2C9D87E95 /* UIColor.swift in Sources */,
+				BA1E0F2E350700950C4647E37606EE92 /* UIImage.swift in Sources */,
+				DE7E6F3D433742F4367A1310F51599AA /* UIViewController.swift in Sources */,
+				DFEBBE3C91FD84E70AE5B53B4EBA78D2 /* UXMPDFKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FFB8CABC538A866A4A26D0CB829CFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF066D0864CF468BAFA9E8838E074DD /* Pods-platypusMarkUpTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		501F6EF308489C4055108EC8681E1D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7649E09BD5A003E5958D4A20CC5356F1 /* Pods-platypusMarkUp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA5B38F867B7667EADFF681D2C718098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2D8E5F1240D613F3BC79808063C50EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DD77BF969A8BD462928170E5708765 /* Pods-platypusMarkUpUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4851818782E7C49DBE3318527108626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UXMPDFKit-UXMPDFKit";
+			target = E259586C65378D5BA833D8BBDE12A374 /* UXMPDFKit-UXMPDFKit */;
+			targetProxy = 323EFE0C7086233C6E750A3D58E93BE5 /* PBXContainerItemProxy */;
+		};
+		E501670E7AF12A745F29F5515EF74CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = E1741066D7B625245BAFDA2BC362491B /* PBXContainerItemProxy */;
+		};
+		E836BF7294B861C5836CE26766742D2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UXMPDFKit;
+			target = BDEF959A4E629DB751687692E31892D2 /* UXMPDFKit */;
+			targetProxy = D4B3006032F99D2E0879E82657EBE9AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		077C4BB7DBEAA715DED46C057DC8051C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF8DB0CEDF2653A89FCFE115A4347D8 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72F01C07EE3C885BFA9244AD858ADF4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B75A69C7405BB3A7C98DE926E9E96D /* UXMPDFKit.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UXMPDFKit";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/UXMPDFKit/ResourceBundle-UXMPDFKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = UXMPDFKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7C78E62684D9C52CE380B5DBAA3228C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A7042360E742CCC88D4D5478ADCAA8C /* Pods-platypusMarkUp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-platypusMarkUp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-platypusMarkUp/Pods-platypusMarkUp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_platypusMarkUp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C8CECB80C7C27FDC9C557095D96EAAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B75A69C7405BB3A7C98DE926E9E96D /* UXMPDFKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UXMPDFKit/UXMPDFKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UXMPDFKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UXMPDFKit/UXMPDFKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UXMPDFKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B24303DE944635E35584469E7CFE164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2AF6F86FB62C9AA1E2349DDE1202479 /* Pods-platypusMarkUpTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-platypusMarkUpTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-platypusMarkUpTests/Pods-platypusMarkUpTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_platypusMarkUpTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F95E4604E959E0F7ED84D6007079787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F067B45AA9E48FCFD365283F7AB3F17 /* Pods-platypusMarkUpTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-platypusMarkUpTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-platypusMarkUpTests/Pods-platypusMarkUpTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_platypusMarkUpTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B13F2D2AF0D131DE3DA056FCE5D7963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD5818ED58E99768530B247E2F6F525 /* Pods-platypusMarkUpUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-platypusMarkUpUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-platypusMarkUpUITests/Pods-platypusMarkUpUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_platypusMarkUpUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B4C27975D34DF9A0CA437A2CFD7E1056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA606D31DD10B023E333FEF791D9DB75 /* Pods-platypusMarkUpUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-platypusMarkUpUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-platypusMarkUpUITests/Pods-platypusMarkUpUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_platypusMarkUpUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9C6FED1E0E6078C8B2B12C08E78F69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B75A69C7405BB3A7C98DE926E9E96D /* UXMPDFKit.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UXMPDFKit";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/UXMPDFKit/ResourceBundle-UXMPDFKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = UXMPDFKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D60F8C4DE6B0D221A33959774DA3DAFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF8DB0CEDF2653A89FCFE115A4347D8 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF551CC06A6C67A05CAB06F0E4AE2D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87B75A69C7405BB3A7C98DE926E9E96D /* UXMPDFKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UXMPDFKit/UXMPDFKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UXMPDFKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UXMPDFKit/UXMPDFKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UXMPDFKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB66A0ECD22AF2614C5645865D45600B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794D2919DE33E47807D2E5DC81862CFB /* Pods-platypusMarkUp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-platypusMarkUp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-platypusMarkUp/Pods-platypusMarkUp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_platypusMarkUp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BDDE68C96259E108E70529334CB027 /* Build configuration list for PBXNativeTarget "UXMPDFKit-UXMPDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C6FED1E0E6078C8B2B12C08E78F69B /* Debug */,
+				72F01C07EE3C885BFA9244AD858ADF4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60F8C4DE6B0D221A33959774DA3DAFF /* Debug */,
+				077C4BB7DBEAA715DED46C057DC8051C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		927E52EB1AB5362ABFA19887808228F8 /* Build configuration list for PBXNativeTarget "Pods-platypusMarkUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4C27975D34DF9A0CA437A2CFD7E1056 /* Debug */,
+				9B13F2D2AF0D131DE3DA056FCE5D7963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A747110DF0339157EDC1F72981DD7C09 /* Build configuration list for PBXNativeTarget "Pods-platypusMarkUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C78E62684D9C52CE380B5DBAA3228C1 /* Debug */,
+				FB66A0ECD22AF2614C5645865D45600B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6CE39BDF7413CFA44A3061EB6CFDC7E /* Build configuration list for PBXNativeTarget "Pods-platypusMarkUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F95E4604E959E0F7ED84D6007079787 /* Debug */,
+				8B24303DE944635E35584469E7CFE164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA026440A961E55FA934A36AC4D38417 /* Build configuration list for PBXNativeTarget "UXMPDFKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF551CC06A6C67A05CAB06F0E4AE2D03 /* Debug */,
+				7C8CECB80C7C27FDC9C557095D96EAAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18BFF549D812FF6F81460304 /* Pods_platypusMarkUpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFD294EB85768597644F8611 /* Pods_platypusMarkUpUITests.framework */; };
+		290D185F1F3D4BC20049BE4A /* PLMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D185E1F3D4BC20049BE4A /* PLMainViewController.swift */; };
 		298831AA1F18D4E800F6FFF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298831A91F18D4E800F6FFF4 /* AppDelegate.swift */; };
 		298831AC1F18D4E800F6FFF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298831AB1F18D4E800F6FFF4 /* ViewController.swift */; };
 		298831AF1F18D4E800F6FFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298831AD1F18D4E800F6FFF4 /* Main.storyboard */; };
@@ -15,6 +17,12 @@
 		298831B71F18D4E800F6FFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 298831B51F18D4E800F6FFF4 /* LaunchScreen.storyboard */; };
 		298831C21F18D4E800F6FFF4 /* platypusMarkUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298831C11F18D4E800F6FFF4 /* platypusMarkUpTests.swift */; };
 		298831CD1F18D4E800F6FFF4 /* platypusMarkUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298831CC1F18D4E800F6FFF4 /* platypusMarkUpUITests.swift */; };
+		29D719E31F3D61B600F9CDA6 /* samplepdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 29D719E21F3D61B600F9CDA6 /* samplepdf.pdf */; };
+		29D719E61F3D64B600F9CDA6 /* PLMainVCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D719E51F3D64B600F9CDA6 /* PLMainVCTableViewCell.swift */; };
+		29D719E81F3D65E700F9CDA6 /* PLAssignmentListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D719E71F3D65E700F9CDA6 /* PLAssignmentListVC.swift */; };
+		29D719EA1F3D663000F9CDA6 /* PLAssignmentListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D719E91F3D663000F9CDA6 /* PLAssignmentListTableViewCell.swift */; };
+		38F28A97BF694FEA6F36C333 /* Pods_platypusMarkUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBFCFB348E2AE4C576BD1AA5 /* Pods_platypusMarkUp.framework */; };
+		61A22EC10E1F5605FAB0DE08 /* Pods_platypusMarkUpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9961A730FA57C45736216D17 /* Pods_platypusMarkUpTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		290D185E1F3D4BC20049BE4A /* PLMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLMainViewController.swift; sourceTree = "<group>"; };
 		298831A61F18D4E800F6FFF4 /* platypusMarkUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = platypusMarkUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		298831A91F18D4E800F6FFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		298831AB1F18D4E800F6FFF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,19 @@
 		298831C81F18D4E800F6FFF4 /* platypusMarkUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = platypusMarkUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		298831CC1F18D4E800F6FFF4 /* platypusMarkUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = platypusMarkUpUITests.swift; sourceTree = "<group>"; };
 		298831CE1F18D4E800F6FFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29D719E21F3D61B600F9CDA6 /* samplepdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = samplepdf.pdf; sourceTree = "<group>"; };
+		29D719E51F3D64B600F9CDA6 /* PLMainVCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLMainVCTableViewCell.swift; sourceTree = "<group>"; };
+		29D719E71F3D65E700F9CDA6 /* PLAssignmentListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLAssignmentListVC.swift; sourceTree = "<group>"; };
+		29D719E91F3D663000F9CDA6 /* PLAssignmentListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLAssignmentListTableViewCell.swift; sourceTree = "<group>"; };
+		6A2459676AADEE1C53657995 /* Pods-platypusMarkUpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platypusMarkUpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-platypusMarkUpTests/Pods-platypusMarkUpTests.release.xcconfig"; sourceTree = "<group>"; };
+		70D30758CC34D548EFB4AA1F /* Pods-platypusMarkUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platypusMarkUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-platypusMarkUp/Pods-platypusMarkUp.release.xcconfig"; sourceTree = "<group>"; };
+		724EBE2830850FE0B6F8D326 /* Pods-platypusMarkUpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platypusMarkUpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-platypusMarkUpUITests/Pods-platypusMarkUpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9961A730FA57C45736216D17 /* Pods_platypusMarkUpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_platypusMarkUpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3FE6DD35E9973318F4737A /* Pods-platypusMarkUpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platypusMarkUpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-platypusMarkUpUITests/Pods-platypusMarkUpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C93B1AA38316FBA3361EF511 /* Pods-platypusMarkUpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platypusMarkUpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-platypusMarkUpTests/Pods-platypusMarkUpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2B01078A65146BB689626EF /* Pods-platypusMarkUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-platypusMarkUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-platypusMarkUp/Pods-platypusMarkUp.debug.xcconfig"; sourceTree = "<group>"; };
+		FBFCFB348E2AE4C576BD1AA5 /* Pods_platypusMarkUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_platypusMarkUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD294EB85768597644F8611 /* Pods_platypusMarkUpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_platypusMarkUpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F28A97BF694FEA6F36C333 /* Pods_platypusMarkUp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61A22EC10E1F5605FAB0DE08 /* Pods_platypusMarkUpTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +94,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BFF549D812FF6F81460304 /* Pods_platypusMarkUpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		290D185D1F3D4B910049BE4A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				290D185E1F3D4BC20049BE4A /* PLMainViewController.swift */,
+				29D719E71F3D65E700F9CDA6 /* PLAssignmentListVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		2988319D1F18D4E800F6FFF4 = {
 			isa = PBXGroup;
 			children = (
+				29D719E11F3D61A500F9CDA6 /* ExamplePDF */,
 				298831A81F18D4E800F6FFF4 /* platypusMarkUp */,
 				298831C01F18D4E800F6FFF4 /* platypusMarkUpTests */,
 				298831CB1F18D4E800F6FFF4 /* platypusMarkUpUITests */,
 				298831A71F18D4E800F6FFF4 /* Products */,
+				B8591DF768969C734CEE0F67 /* Pods */,
+				4373A789500A5F6F19842C3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +136,9 @@
 		298831A81F18D4E800F6FFF4 /* platypusMarkUp */ = {
 			isa = PBXGroup;
 			children = (
+				29D719EB1F3DB04700F9CDA6 /* Networking */,
+				29D719E41F3D644C00F9CDA6 /* TableViewCells */,
+				290D185D1F3D4B910049BE4A /* ViewControllers */,
 				298831A91F18D4E800F6FFF4 /* AppDelegate.swift */,
 				298831AB1F18D4E800F6FFF4 /* ViewController.swift */,
 				298831AD1F18D4E800F6FFF4 /* Main.storyboard */,
@@ -128,6 +168,53 @@
 			path = platypusMarkUpUITests;
 			sourceTree = "<group>";
 		};
+		29D719E11F3D61A500F9CDA6 /* ExamplePDF */ = {
+			isa = PBXGroup;
+			children = (
+				29D719E21F3D61B600F9CDA6 /* samplepdf.pdf */,
+			);
+			name = ExamplePDF;
+			sourceTree = "<group>";
+		};
+		29D719E41F3D644C00F9CDA6 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				29D719E51F3D64B600F9CDA6 /* PLMainVCTableViewCell.swift */,
+				29D719E91F3D663000F9CDA6 /* PLAssignmentListTableViewCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		29D719EB1F3DB04700F9CDA6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		4373A789500A5F6F19842C3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBFCFB348E2AE4C576BD1AA5 /* Pods_platypusMarkUp.framework */,
+				9961A730FA57C45736216D17 /* Pods_platypusMarkUpTests.framework */,
+				FFD294EB85768597644F8611 /* Pods_platypusMarkUpUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8591DF768969C734CEE0F67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2B01078A65146BB689626EF /* Pods-platypusMarkUp.debug.xcconfig */,
+				70D30758CC34D548EFB4AA1F /* Pods-platypusMarkUp.release.xcconfig */,
+				C93B1AA38316FBA3361EF511 /* Pods-platypusMarkUpTests.debug.xcconfig */,
+				6A2459676AADEE1C53657995 /* Pods-platypusMarkUpTests.release.xcconfig */,
+				BF3FE6DD35E9973318F4737A /* Pods-platypusMarkUpUITests.debug.xcconfig */,
+				724EBE2830850FE0B6F8D326 /* Pods-platypusMarkUpUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 298831D11F18D4E800F6FFF4 /* Build configuration list for PBXNativeTarget "platypusMarkUp" */;
 			buildPhases = (
+				962631AB661D404A2D7B4946 /* [CP] Check Pods Manifest.lock */,
 				298831A21F18D4E800F6FFF4 /* Sources */,
 				298831A31F18D4E800F6FFF4 /* Frameworks */,
 				298831A41F18D4E800F6FFF4 /* Resources */,
+				17CD80253BACF279F2CE74E6 /* [CP] Embed Pods Frameworks */,
+				90299C248A60634361196F0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 298831D41F18D4E800F6FFF4 /* Build configuration list for PBXNativeTarget "platypusMarkUpTests" */;
 			buildPhases = (
+				DCFA1CE3C9355091B510BCF6 /* [CP] Check Pods Manifest.lock */,
 				298831B91F18D4E800F6FFF4 /* Sources */,
 				298831BA1F18D4E800F6FFF4 /* Frameworks */,
 				298831BB1F18D4E800F6FFF4 /* Resources */,
+				BCE6A24963997A3633D90F27 /* [CP] Embed Pods Frameworks */,
+				339E621214FFF00232873126 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 298831D71F18D4E800F6FFF4 /* Build configuration list for PBXNativeTarget "platypusMarkUpUITests" */;
 			buildPhases = (
+				18B7A41F748A14E42F41C482 /* [CP] Check Pods Manifest.lock */,
 				298831C41F18D4E800F6FFF4 /* Sources */,
 				298831C51F18D4E800F6FFF4 /* Frameworks */,
 				298831C61F18D4E800F6FFF4 /* Resources */,
+				1D4342CBACA517E40F7BA719 /* [CP] Embed Pods Frameworks */,
+				2DCF73832936E5DC8372F228 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +337,7 @@
 				298831B71F18D4E800F6FFF4 /* LaunchScreen.storyboard in Resources */,
 				298831B41F18D4E800F6FFF4 /* Assets.xcassets in Resources */,
 				298831AF1F18D4E800F6FFF4 /* Main.storyboard in Resources */,
+				29D719E31F3D61B600F9CDA6 /* samplepdf.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +357,170 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17CD80253BACF279F2CE74E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-platypusMarkUp/Pods-platypusMarkUp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/UXMPDFKit/UXMPDFKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UXMPDFKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-platypusMarkUp/Pods-platypusMarkUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18B7A41F748A14E42F41C482 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-platypusMarkUpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D4342CBACA517E40F7BA719 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-platypusMarkUpUITests/Pods-platypusMarkUpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DCF73832936E5DC8372F228 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-platypusMarkUpUITests/Pods-platypusMarkUpUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		339E621214FFF00232873126 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-platypusMarkUpTests/Pods-platypusMarkUpTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90299C248A60634361196F0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-platypusMarkUp/Pods-platypusMarkUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		962631AB661D404A2D7B4946 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-platypusMarkUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCE6A24963997A3633D90F27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-platypusMarkUpTests/Pods-platypusMarkUpTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCFA1CE3C9355091B510BCF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-platypusMarkUpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		298831A21F18D4E800F6FFF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				298831AC1F18D4E800F6FFF4 /* ViewController.swift in Sources */,
+				29D719E81F3D65E700F9CDA6 /* PLAssignmentListVC.swift in Sources */,
+				290D185F1F3D4BC20049BE4A /* PLMainViewController.swift in Sources */,
 				298831AA1F18D4E800F6FFF4 /* AppDelegate.swift in Sources */,
+				29D719EA1F3D663000F9CDA6 /* PLAssignmentListTableViewCell.swift in Sources */,
 				298831B21F18D4E800F6FFF4 /* platypusMarkUp.xcdatamodeld in Sources */,
+				29D719E61F3D64B600F9CDA6 /* PLMainVCTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,10 +672,12 @@
 		};
 		298831D21F18D4E800F6FFF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B01078A65146BB689626EF /* Pods-platypusMarkUp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4F98H3FLC5;
 				INFOPLIST_FILE = platypusMarkUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.divjyotsingh.platypusMarkUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,10 +687,12 @@
 		};
 		298831D31F18D4E800F6FFF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D30758CC34D548EFB4AA1F /* Pods-platypusMarkUp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4F98H3FLC5;
 				INFOPLIST_FILE = platypusMarkUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.divjyotsingh.platypusMarkUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +702,7 @@
 		};
 		298831D51F18D4E800F6FFF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93B1AA38316FBA3361EF511 /* Pods-platypusMarkUpTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +718,7 @@
 		};
 		298831D61F18D4E800F6FFF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2459676AADEE1C53657995 /* Pods-platypusMarkUpTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +734,7 @@
 		};
 		298831D81F18D4E800F6FFF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF3FE6DD35E9973318F4737A /* Pods-platypusMarkUpUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4F98H3FLC5;
@@ -489,6 +749,7 @@
 		};
 		298831D91F18D4E800F6FFF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724EBE2830850FE0B6F8D326 /* Pods-platypusMarkUpUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4F98H3FLC5;
@@ -520,6 +781,7 @@
 				298831D31F18D4E800F6FFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		298831D41F18D4E800F6FFF4 /* Build configuration list for PBXNativeTarget "platypusMarkUpTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +790,7 @@
 				298831D61F18D4E800F6FFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		298831D71F18D4E800F6FFF4 /* Build configuration list for PBXNativeTarget "platypusMarkUpUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +799,7 @@
 				298831D91F18D4E800F6FFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

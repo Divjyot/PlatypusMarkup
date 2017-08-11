@@ -1,0 +1,6 @@
+framework module Pods_platypusMarkUpUITests {
+  umbrella header "Pods-platypusMarkUpUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
